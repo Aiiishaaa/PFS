@@ -1,0 +1,380 @@
+/* @media Responsive Start */
+@media (min-width: 1367px) {}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	[class*="shape-cta"],[class*="shape-soon"],
+    [class*="shape"]:not(.shapes-section) {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+	.px-md-20 {
+	    padding-right: 11.8rem;
+	    padding-left: 11.8rem;
+	}
+	.px-md-7 {
+	    padding-right: 7.5rem;
+	    padding-left: 7.5rem;
+	}
+	.comments-area {}
+}
+
+@media (min-width: 992px) {
+	.info-section:not(.support-section) {
+	    margin-top: -120px;
+	}
+	.author-details .author-widget {
+	    float: right;
+	    margin-right: 80px;
+	}
+	.px-lg-20 {
+	    padding-right: 11.8rem;
+	    padding-left: 11.8rem;
+	}
+	.px-lg-7 {
+	    padding-right: 7.5rem;
+	    padding-left: 7.5rem;
+	}
+	.row-cols-lg-4 .projects-caption {
+		padding: 0.5rem;
+	}
+	.row-cols-lg-4 .projects-heading {
+	    padding: 0.8rem;
+	}
+	.row-cols-md-2 .projects-caption {
+	    padding: 2.5rem 5rem;
+	}
+	.comingsoon-page {
+		height: 100vh;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.main-menu-right > ul {
+	    padding-left: 0.5rem;
+	}
+	.main-menu-right > ul > li {
+	    margin-right: 0.625rem;
+	}
+	.main-navigation-area .main-menu-right > ul li:last-child {
+	    padding-left: 0.625rem;
+	}
+	.main-navigation-area .contact-icon {
+	    margin-right: 0.5rem;
+	    width: 35px;
+	    height: 35px;
+	    font-size: 1.875rem;
+	}
+	.main-navigation-area .contact-info .title {
+	    font-size: 0.75rem;
+	}
+	.main-navigation-area .contact-info .text {
+	    font-size: 1.25rem;
+	}
+	.main-navbar .main-menu > li.menu-item > a {
+	    padding: 0 0.4375rem;
+	}
+	.footer .main-menu > li > a, .main-navbar .main-menu > li > a {
+	    font-size: 0.9375rem;
+	}
+	.post-image-text {
+	    left: 20px;
+	    right: 20px;
+	    bottom: 25px;
+	    font-size: 17px;
+	}
+	.post-meta:not(.post-img-meta):not(.post-tags) {
+		justify-content: center;
+	}
+	.post-meta:not(.post-img-meta):not(.post-tags) span:not(:first-child) {
+		margin-top: 10px;
+	}
+	.calendar_wrap table caption {
+	    font-size: 90%;
+	    text-align: left;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1124px) {
+	
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.footer-copyright .widget li:not(:last-child) {
+	    margin-right: .5rem;
+	}
+	.footer-copyright .widget:not(.widget-info):not(.widget_social_widget) li:not(:first-child) a {
+	    padding-left: .5rem;
+	}
+}
+
+@media (max-width: 991px) {
+	.main-slider div.main-content {
+	    margin-bottom: 0;
+	    margin-top: 0;
+	}
+	.main-content h6 {
+	    font-size: 1.375rem;
+	}
+    .main-content h1 {
+	    font-size: 1.75rem;
+	}
+	.main-content p {
+	    font-size: 0.875rem;
+	}
+	.info-section:not(.support-section) .widget-contact {
+	    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 0.12);
+	}
+	.comment-list .children {
+	    margin-left: 0;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.widget_social_widget li:not(:last-child) {
+	    margin-right: 2px;
+	}
+	.card-404 {
+	    max-width: 620px;
+	}
+	.card-404 h1 i {
+    	font-size: 13rem;
+	}
+	.card-404 h1 {
+		font-size: 16rem;
+	    line-height: 13rem;
+	}
+	.contact-form {
+		margin-top: -35%;
+	}
+	.contact-address .col:nth-child(2n+2) .widget-contact {
+	    border-right: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	[class*="shape-soon"],[class*="shape-cta"],
+	[class*="shape"]:not(.shapes-section) {
+        display: none;
+    }
+	.header-above-bar .widget-left,
+	.header-above-bar .widget-right,
+	.header-above-bar .header-widget .widget {
+	    display: block;
+	}
+	.header-above-bar {
+		width: 100%;
+	}
+	.main-content h6,
+	.main-content h1,
+	.main-content p {
+        margin-bottom: 0.625rem;
+	}
+	.main-content .btn {
+	    padding: 0.375rem 0.875rem;
+	}
+	.main-content .btn.btn-play {
+		padding: 0;
+	}
+	.cta-wrapper {
+		justify-content: center;
+	}
+	.footer-above-carousel .widget {
+		padding-right: 12px;
+	}
+    .card-404 {
+	    max-width: 100%;
+	}
+	.card-404 h1 i {
+    	font-size: 7rem;
+	}
+	.card-404 h1 {
+		font-size: 10rem;
+	    line-height: 7rem;
+	    letter-spacing: .5rem;
+	}
+	.contact-form-widget {
+	    padding: 1.3rem;
+	}
+	.contact-form-widget .contact-info h6.title,
+	.contact-form-widget .contact-info p.text {
+	    font-size: 1.35rem;
+	}
+	.contact-form-widget .contact-icon {
+	    width: 50px;
+	    height: 50px;
+	    font-size: 1.38rem;
+	}
+	.contact-form {
+		margin-top: -50%;
+	}
+	.contact-address .col:not(:last-child) .widget-contact {
+		border-bottom: 1px solid var(--bs-gray);
+		border-right: 0;
+	}
+	.cta-btn-wrap .btn {
+	    padding: 0.6rem 1.1rem;
+	}
+	.cta-btn-wrap {
+	    flex-direction: column;
+	    margin-top: 5px;
+	}
+	.cta-wrapper .read-link {
+        margin-top: 10px;
+	    margin-left: 0;
+	}
+	.author-details {
+		padding: 38px 42px;
+	}
+	.author-details .media {
+	    flex-wrap: wrap;
+	}
+	.author-details .media .auth-mata {
+	    margin: 0;
+	    margin-bottom: 1.5rem;
+	}
+	.author-details .media .media-body {
+	    flex: auto;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+	.row-cols-1 .projects-caption {
+	    padding: 2.5rem 5rem;
+	}
+	.author-details .author-widget {
+	    margin-left: .5rem;
+	}
+}
+
+@media (max-width: 575px) {
+	.calendar_wrap table th,
+	.calendar_wrap table td {
+	    height: 35px;
+	}
+	.calendar_wrap table caption {
+		text-align: left;
+	}
+}
+
+@media (max-width: 540px) {
+	.main-content h6 {
+	    padding: 0.3125rem 0.625rem;
+	    font-size: 0.85rem;
+	    margin-bottom: 0.3125rem;
+	}
+	.main-content h1 {
+	    font-size: 1.25rem;
+	    margin-bottom: 0.3125rem;
+	}
+	.main-content p {
+	    font-size: 0.8125rem;
+	    margin-bottom: 0.3125rem;
+	    max-width: 275px;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	}
+	.main-slider .text-center p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-slider .text-right p {
+        margin-left: auto;
+    }
+	.main-content .btn {
+	    font-size: 0.68rem;
+	    padding: 0.25rem 0.45rem;
+	}
+	.btn.btn-play span.btn {
+	    width: 2rem;
+	    height: 2rem;
+	    line-height: 1.95rem;
+	}
+	.main-content .btn:not(:last-child) {
+	    margin-right: 0;
+	}
+	.check-list li {
+	    flex: 100%;
+	}
+	.comment-list .children {
+	    margin-left: .5rem;
+	}
+	.comment-list .children .comment-body {
+	    padding: 16px;
+	}
+}
+
+@media (max-width: 500px) {
+	.footer-above-carousel .widget {
+		justify-content: center;
+	}
+	.comments-area .comment-body {
+	    border-radius: 10px;
+	}
+}
+
+@media (max-width: 436px) {
+	.post-image-text {
+	    font-size: 1rem;
+	    line-height: 1.85;
+	}
+	.comments-area .comment-meta .comment-author img {
+	    position: unset;
+	    margin-right: 0.5rem;
+	    display: inline-block;
+	}
+	.comments-area .comment-body {
+	    padding: 25px 22px;
+	}
+	.comment-meta .comment-metadata {
+	    margin: 0;
+	    white-space: nowrap;
+	}
+	.comment-metadata .edit-link {
+	    margin-left: 0;
+	}
+	.comment-meta .comment-metadata time {
+	    font-size: 14px;
+	}
+	.card-404 h1 i {
+    	font-size: 6rem;
+	}
+	.card-404 h1 {
+		font-size: 8rem;
+		line-height: 6rem;
+		margin-bottom: 1.75rem;
+	}
+	.card-404-btn a {
+		display: block;
+	}
+	.card-404-btn a:not(:first-child) {
+		margin-top: 10px;
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 374px) {
+	.breadcrumb-box .breadcrumb-content {
+		min-width: 100%;
+	}
+}
+
+@media (max-width: 330px) {
+    .main-mobile-menu .header-wrap-right li {
+        margin-right: 6px;
+    }
+    .mobile-logo .logo {
+        max-width: 168px;
+    }
+    .card-404 h1 i {
+    	font-size: 4rem;
+	}
+	.card-404 h1 {
+		font-size: 5.5rem;
+		line-height: 4rem;
+	}
+}
+
+/* @media Responsive End */

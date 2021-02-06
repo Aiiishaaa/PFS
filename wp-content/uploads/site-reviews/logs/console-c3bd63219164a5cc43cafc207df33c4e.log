@@ -1,0 +1,4 @@
+[2021-02-05 12:18:46] DEBUG [Database\SqlSchema:152] Cannot create the wp_glsr_assigned_posts table because it already exists.
+[2021-02-05 12:18:46] DEBUG [Database\SqlSchema:173] Cannot create the wp_glsr_assigned_terms table because it already exists.
+[2021-02-05 12:18:46] DEBUG [Database\SqlSchema:193] Cannot create the wp_glsr_assigned_users table because it already exists.
+[2021-02-05 12:18:46] DEBUG [Database\SqlSchema:215] Cannot create the wp_glsr_ratings table because it already exists.

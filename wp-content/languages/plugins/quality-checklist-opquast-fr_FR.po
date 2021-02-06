@@ -1,0 +1,68 @@
+# Translation of Plugins - Checklist Opquast Qualité Web - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Checklist Opquast Qualité Web - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-11-06 23:04:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Checklist Opquast Qualité Web - Stable (latest release)\n"
+
+#: quality-checklist-opquast.php:162
+msgid "%s critère non vérifié pour l’instant."
+msgid_plural "%s critères non vérifiés pour l’instant."
+msgstr[0] "%s critère non vérifié pour l’instant."
+msgstr[1] "%s critères non vérifiés pour l’instant."
+
+#: quality-checklist-opquast.php:153
+msgid "%s critère non applicable."
+msgid_plural "%s critères non applicables."
+msgstr[0] "%s critère non applicable."
+msgstr[1] "%s critères non applicables."
+
+#: quality-checklist-opquast.php:144
+msgid "%s critère non conforme."
+msgid_plural "%s critères non conformes."
+msgstr[0] "%s critère non conforme."
+msgstr[1] "%s critères non conformes."
+
+#: quality-checklist-opquast.php:135
+msgid "%s critère conforme."
+msgid_plural "%s critères conformes."
+msgstr[0] "%s critère conforme."
+msgstr[1] "%s critères conformes."
+
+#: quality-checklist-opquast.php:68
+msgid "This screen requires JavaScript."
+msgstr "Cet écran nécessite JavaScript."
+
+#: quality-checklist-opquast.php:60
+msgid "Enregistrer les modifications"
+msgstr "Enregistrer les modifications"
+
+#: quality-checklist-opquast.php:46
+msgid "Checklist Opquast"
+msgstr "Checklist Opquast"
+
+#. Author URI of the plugin
+msgid "https://jeanbaptisteaudras.com"
+msgstr "https://jeanbaptisteaudras.com"
+
+#. Author of the plugin
+msgid "audrasjb"
+msgstr "audrasjb"
+
+#. Description of the plugin
+msgid "Checklist qualité web Opquast pour WordPress"
+msgstr "Checklist qualité web Opquast pour WordPress"
+
+#. Plugin URI of the plugin
+msgid "https://jeanbaptisteaudras.com/portfolio/wordpress-reading-progressbar-indicator-plugin/"
+msgstr "https://jeanbaptisteaudras.com/opquast-extension-wordpress-checklist"
+
+#. Plugin Name of the plugin
+msgid "Quality Checklist Opquast"
+msgstr "Quality Checklist Opquast"

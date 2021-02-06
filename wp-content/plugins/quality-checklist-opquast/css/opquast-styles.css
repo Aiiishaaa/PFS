@@ -1,0 +1,175 @@
+.site-health.tools_page_opquast .health-check-header {
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+.site-health.tools_page_opquast .notice.is-dismissible {
+	display: inline-block;
+	float: right;
+}
+.site-health.tools_page_opquast .health-check-header h1 {
+	margin-top: 1rem;
+}
+.site-health.tools_page_opquast .health-check-header h1 img {
+	width: 24px;
+	height: auto;
+}
+.site-health.tools_page_opquast .health-check-header h1 input.opquast-button {
+	position: absolute;
+	top: 1.5rem;
+	right: 2rem;
+}
+.site-health.tools_page_opquast .wp-header-end {
+	margin-bottom: 100px;
+}
+.logo-opquast {
+	float: right;
+	width: 260px;
+	height: auto;
+}
+.opquast-stat-red {
+	color: #dc3232;
+}
+.opquast-stat-green {
+	color: #3b9b43;
+}
+.opquast-stat-blue {
+	color: #1981a0;
+}
+.opquast-stat-grey {
+	color: #777;
+}
+.opquast-licence a .dashicons {
+	text-decoration: none;
+}
+.site-health.tools_page_opquast fieldset.opquast-verification {
+	padding: 1em 0.5em;
+	background: #f5f5f5;
+}
+.site-health.tools_page_opquast fieldset.opquast-verification legend {
+	display: inline-block;
+	font-weight: bold;
+}
+.site-health.tools_page_opquast fieldset.opquast-verification input[type="radio"] {
+	margin-left: 2em;
+}
+.site-health.tools_page_opquast .badge {
+	white-space: nowrap;
+}
+.site-health.tools_page_opquast .badge.red {
+	border: 1px solid #dc3232;
+	color: #dc3232;
+	font-weight: normal;
+}
+.site-health.tools_page_opquast .badge.green {
+	border: 1px solid #3b9b43;
+	color: #3b9b43;
+	font-weight: normal;
+}
+.site-health.tools_page_opquast .badge.blue {
+	border: 1px solid #1981a0;
+	color: #1981a0;
+	font-weight: normal;
+}
+.site-health.tools_page_opquast .badge.grey {
+	border: 1px solid #777;
+	color: #777;
+	font-weight: normal;
+}
+.site-health.tools_page_opquast .opquast-tags .badge {
+	margin-right: .5rem;
+	padding: .1rem .5rem .15rem;
+	border: 1px solid #bfe7f3;
+	color: #32373c;
+	font-weight: 600;
+}
+
+@media print {
+	body {
+		width: auto!important;
+		margin: auto!important;
+		font-family: serif;
+		font-size: 12pt;
+		background-color: #fff!important;
+		color: #000!important;
+	}
+	p, h1, h2, h3, h4, h5, h6, blockquote, ul, ol {
+		color: #000!important;
+		margin: auto!important;
+	}
+	.print {
+		display: block; /* affichage des éléments de classe print */
+	}
+	p, blockquote {
+		orphans: 3; /* pas de ligne seule en bas */
+		widows: 3; /* pas de ligne seule en haut */
+	}
+	blockquote, ul, ol {
+		page-break-inside: avoid; /* pas de coupure dans ces élements */
+	}
+	h1 {
+		page-break-before: always; /* chaque titre commence sur une nouvelle page */
+	}
+	h1, h2, h3, caption {
+		page-break-after: avoid; /* pas de saut après ces éléments */
+	}
+	a {
+		color: #000!important;
+		text-decoration: underline!important;
+	}
+	a[href]:after {
+		content: " (" attr(href) ")"; /* affichage des URL des liens */
+	}
+	#wpadminbar,
+	#wp-toolbar,
+	#adminmenumain 
+	{
+		display: none;
+	}
+	#wpbody-content {
+		float: none !important;
+		width: 100%;
+		overflow: auto !important;
+	}
+	button, input[type="submit"] {
+		display: none !important;
+	}
+	.logo-opquast {
+		display: none !important;
+	}
+	.health-check-header {
+		border: 0 none !important;
+	}
+	.health-check-body {
+		max-width: 100% !important;
+		margin: 0 !important;
+	}
+	.notice {
+		display: none !important;
+	}
+	#health-check-issues-unverified > p {
+		display: none !important;
+	}
+	.health-check-accordion {
+		border: 0 none !important;
+	}
+	button.health-check-accordion-trigger {
+		display: block !important;
+	}
+	button.health-check-accordion-trigger .title {
+		display: block !important;
+	}
+	button.health-check-accordion-trigger .badge {
+		margin-top: 20px;
+	}
+	button.health-check-accordion-trigger .icon {
+		display: none !important;
+	}
+	.opquast-verification {
+		display: none !important;
+	}
+	.health-check-accordion-panel {
+		display: block !important;
+	}
+}

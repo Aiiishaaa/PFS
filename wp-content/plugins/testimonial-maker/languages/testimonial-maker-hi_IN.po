@@ -1,0 +1,249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-08-11 17:27+0530\n"
+"PO-Revision-Date: 2018-08-11 17:52+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: featured-plugins/featured-plugins.php:96
+#, php-format
+msgid "%s rating"
+msgstr "% s रेटिंग"
+
+#: featured-plugins/featured-plugins.php:111
+msgid "Get More Free WordPress Plugin From A WP Life"
+msgstr "A WP Life से अधिक मुफ्त वर्डप्रेस प्लगइन प्राप्त करें"
+
+#: featured-plugins/featured-plugins.php:157
+msgid "More Details"
+msgstr "अधिक जानकारी"
+
+#: featured-plugins/featured-plugins.php:168
+msgid "Install Now"
+msgstr "अभी स्थापित करें"
+
+#: featured-plugins/featured-plugins.php:175
+msgid "Update Now"
+msgstr "अभी अद्यतन करें"
+
+#: featured-plugins/featured-plugins.php:180
+msgid "Installed"
+msgstr "स्थापित"
+
+#: featured-plugins/featured-plugins.php:218
+msgid "By "
+msgstr "By "
+
+#: featured-plugins/featured-plugins.php:239
+msgid "Last Updated:"
+msgstr "आखरी अद्यतन:"
+
+#: testimonial-maker.php:45 testimonial-maker.php:96 testimonial-maker.php:98
+msgid "Testimonial Maker"
+msgstr "प्रशंसापत्र निर्माता"
+
+#: testimonial-maker.php:87
+msgid "Testimonial Setting"
+msgstr "प्रशंसापत्र सेटिंग"
+
+#: testimonial-maker.php:88
+msgid "Featured Plugin"
+msgstr "विशेष रुप से प्रदर्शित प्लगइन्स"
+
+#: testimonial-maker.php:89
+msgid "Upgrade Plugin"
+msgstr "प्लगइन अपग्रेड करें"
+
+#: testimonial-maker.php:90
+msgid "Our Theme"
+msgstr "हमारी थीम"
+
+#: testimonial-maker.php:97 testimonial-maker.php:99 testimonial-maker.php:113
+msgid "Testimonial"
+msgstr "गुणों का वर्ण-पत्र"
+
+#: testimonial-maker.php:100 testimonial-maker.php:101
+msgid "Add New Testimonial"
+msgstr "नया प्रशंसापत्र जोड़ें"
+
+#: testimonial-maker.php:102
+msgid "New Testimonial"
+msgstr "नया प्रशंसापत्र"
+
+#: testimonial-maker.php:103
+msgid "Edit Testimonial"
+msgstr "प्रशंसापत्र संपादित करें"
+
+#: testimonial-maker.php:104
+msgid "View Testimonial"
+msgstr "प्रशंसापत्र देखें"
+
+#: testimonial-maker.php:105
+msgid "All Testimonial"
+msgstr "सभी प्रशंसापत्र"
+
+#: testimonial-maker.php:106
+msgid "Search Testimonial"
+msgstr "प्रशंसापत्र खोजें"
+
+#: testimonial-maker.php:107
+msgid "Parent Testimonial:"
+msgstr "अभिभावक प्रशंसापत्र:"
+
+#: testimonial-maker.php:108
+msgid "No Testimonial found."
+msgstr "कोई प्रशंसापत्र नहीं मिला."
+
+#: testimonial-maker.php:109
+msgid "No Testimonial found in Trash."
+msgstr "ट्रैश में कोई प्रशंसापत्र नहीं मिला."
+
+#: testimonial-maker.php:114
+msgid "Description."
+msgstr "विवरण."
+
+#: testimonial-maker.php:133
+msgid "Add Client detail"
+msgstr "ग्राहक विवरण जोड़ें"
+
+#: testimonial-maker.php:141
+msgid "Client Website URL"
+msgstr "ग्राहक वेबसाइट यूआरएल"
+
+#: testimonial-maker.php:144
+msgid "Client Designation"
+msgstr "ग्राहक पदनाम"
+
+#: testimonial-setting.php:26
+msgid "How to show Testimonial on page ?"
+msgstr "पृष्ठ पर प्रशंसापत्र कैसे दिखाएं?"
+
+#: testimonial-setting.php:29
+msgid "Copy & Embed shortcode into any Page/ Post / Text to display Testimonial on site."
+msgstr "साइट पर प्रशंसापत्र प्रदर्शित करने के लिए किसी भी पेज / पोस्ट / टेक्स्ट में कॉपी करें और एम्बेड करें."
+
+#: testimonial-setting.php:37
+msgid "1.Select Testimonial Template Design"
+msgstr "1. प्रशंसापत्र टेम्पलेट डिजाइन का चयन करें"
+
+#: testimonial-setting.php:40
+msgid "Template 1"
+msgstr "टेम्पलेट 1"
+
+#: testimonial-setting.php:41
+msgid "Template 2"
+msgstr "टेम्पलेट 2"
+
+#: testimonial-setting.php:42
+msgid "Template 3"
+msgstr "टेम्पलेट 3"
+
+#: testimonial-setting.php:43
+msgid "Template 4"
+msgstr "टेम्पलेट 4"
+
+#: testimonial-setting.php:47
+msgid "2. Transitions Settings"
+msgstr "2. संक्रमण सेटिंग्स"
+
+#: testimonial-setting.php:48
+msgid "Select Effect"
+msgstr "प्रभाव का चयन करें"
+
+#: testimonial-setting.php:52
+msgid "None"
+msgstr "कोई नहीं"
+
+#: testimonial-setting.php:54
+msgid "Fadup"
+msgstr "परेशान"
+
+#: testimonial-setting.php:55
+msgid "Select Transitions Effect your testimonial"
+msgstr "संक्रमण का चयन करें अपने प्रशंसापत्र को प्रभावित करें"
+
+#: testimonial-setting.php:57
+msgid "Auto Play"
+msgstr "स्वत: प्ले"
+
+#: testimonial-setting.php:61 testimonial-setting.php:112
+msgid "Yes"
+msgstr "हाँ"
+
+#: testimonial-setting.php:63 testimonial-setting.php:114
+msgid "No"
+msgstr "नहीं"
+
+#: testimonial-setting.php:64
+msgid "Select Auto play yes or no for testimonial slide."
+msgstr "प्रशंसापत्र स्लाइड के लिए ऑटो प्ले हाँ या नहीं चुनें."
+
+#: testimonial-setting.php:67
+msgid "3. Color Settings"
+msgstr "3. रंग सेटिंग्स"
+
+#: testimonial-setting.php:68
+msgid "Customer name color"
+msgstr "ग्राहक का नाम रंग"
+
+#: testimonial-setting.php:72 testimonial-setting.php:85 testimonial-setting.php:98
+msgid "Black"
+msgstr "काला"
+
+#: testimonial-setting.php:74 testimonial-setting.php:87 testimonial-setting.php:100
+msgid "White"
+msgstr "सफेद"
+
+#: testimonial-setting.php:76 testimonial-setting.php:89 testimonial-setting.php:102
+msgid "Blue"
+msgstr "नीला"
+
+#: testimonial-setting.php:78 testimonial-setting.php:91 testimonial-setting.php:104
+msgid "Red"
+msgstr "लाल"
+
+#: testimonial-setting.php:79
+msgid "Change Testimonial text color."
+msgstr "प्रशंसापत्र पाठ रंग बदलें."
+
+#: testimonial-setting.php:81
+msgid "Description Text Color"
+msgstr "विवरण पाठ रंग"
+
+#: testimonial-setting.php:92
+msgid "Change Testimonial description text color."
+msgstr "प्रशंसापत्र विवरण पाठ रंग बदलें."
+
+#: testimonial-setting.php:94
+msgid "Designation Text Color"
+msgstr "पदनाम पाठ रंग"
+
+#: testimonial-setting.php:105
+msgid "Change Testimonial designation text color."
+msgstr "प्रशंसापत्र पदनाम पाठ रंग बदलें."
+
+#: testimonial-setting.php:108
+msgid "4. Pagination Bullets"
+msgstr "4. अंकन बुलेट"
+
+#: testimonial-setting.php:115
+msgid "Enable or disable pagination"
+msgstr "पेजिनेशन को सक्षम या अक्षम करें"
+
+#: testimonial-setting.php:122
+msgid "Please wait..."
+msgstr "कृपया प्रतीक्षा करें..."
+
+#: testimonial-setting.php:124
+msgid "Save"
+msgstr "बचाना"

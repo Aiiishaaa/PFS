@@ -1,0 +1,67 @@
+# BEGIN iThemes Security - Ne modifiez pas ou ne supprimez pas cette ligne
+# iThemes Security Config Details: 2
+	# Passer au travers de l’en-tête d’autorisation.
+	<IfModule mod_rewrite.c>
+		RewriteEngine On
+		RewriteCond %{HTTP:Authorization} ^(.*)
+		RewriteRule .* - [e=HTTP_AUTHORIZATION:%1]
+	</IfModule>
+# END iThemes Security - Ne modifiez pas ou ne supprimez pas cette ligne
+
+# BEGIN rlrssslReallySimpleSSL rsssl_version[4.0.7]
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+</IfModule>
+# END rlrssslReallySimpleSSL
+# BEGIN WordPress
+# Les directives (lignes) entre « BEGIN WordPress » et « END WordPress » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+# BEGIN HttpHeaders
+# Les directives (lignes) entre « BEGIN HttpHeaders » et « END HttpHeaders » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+# END HttpHeaders
+# BEGIN HttpHeadersAuth
+# Les directives (lignes) entre « BEGIN HttpHeadersAuth » et « END HttpHeadersAuth » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+# END HttpHeadersAuth
+# BEGIN HttpHeadersCompression
+# Les directives (lignes) entre « BEGIN HttpHeadersCompression » et « END HttpHeadersCompression » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+# END HttpHeadersCompression
+# BEGIN HttpHeadersContentType
+# Les directives (lignes) entre « BEGIN HttpHeadersContentType » et « END HttpHeadersContentType » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+# END HttpHeadersContentType
+# BEGIN HttpHeadersExpires
+# Les directives (lignes) entre « BEGIN HttpHeadersExpires » et « END HttpHeadersExpires » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+# END HttpHeadersExpires
+# BEGIN HttpHeadersTiming
+# Les directives (lignes) entre « BEGIN HttpHeadersTiming » et « END HttpHeadersTiming » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+# END HttpHeadersTiming
+# BEGIN HttpHeadersCookieSecurity
+# Les directives (lignes) entre « BEGIN HttpHeadersCookieSecurity » et « END HttpHeadersCookieSecurity » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+# END HttpHeadersCookieSecurity

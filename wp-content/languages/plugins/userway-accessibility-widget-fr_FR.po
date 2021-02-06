@@ -1,0 +1,33 @@
+# Translation of Plugins - Accessibility by UserWay - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - Accessibility by UserWay - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-01-20 08:06:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Accessibility by UserWay - Development (trunk)\n"
+
+#. Description of the plugin
+msgid "The UserWay Accessibility Widget is a WordPress plugin that helps make your WordPress site more accessible without refactoring your website's existing code and will increase compliance with WCAG 2.1, ATAG 2.0, ADA, & Section 508 requirements."
+msgstr "Le widget d’accessibilité UserWay est une extension WordPress qui permet de rendre votre site plus accessible sans refactoriser le code existant de votre site web et augmentera la conformité aux exigences WCAG 2.1, ATAG 2.0, ADA et Section 508."
+
+#. Plugin Name of the plugin
+msgid "Accessibility by UserWay"
+msgstr "Accessibility par UserWay"
+
+#. Author of the plugin
+msgid "UserWay.org"
+msgstr "UserWay.org"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://userway.org"
+msgstr "http://userway.org"
+
+#: includes/admin.php:31
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
